@@ -38,3 +38,11 @@
 .range:hover > .menu {
     text-decoration: underline;
 }
+li {
+    list-style-type: none;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
