@@ -46,3 +46,40 @@ li {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
+ .lin {
+     text-decoration: none;
+     display: block;
+     color: gray;
+ }
+
+ .lin:hover {
+    color: black;
+ }
+
+.navbar a.linkk {
+    color: blue;
+}
+
+#link1:hover {
+     color: rgb(255, 255, 255);
+ }
+ 
+ #link2:hover {
+    color: rgb(255, 255, 255);
+}
+
+#link3:hover {
+    color: rgb(255, 255, 255);
+}
+
+#link4:hover {
+    color: rgb(255, 255, 255);
+}
+
+#link5:hover {
+    color: rgb(255, 255, 255);
+}
+
+#link6:hover {
+    color: rgb(255, 255, 255);
+}
