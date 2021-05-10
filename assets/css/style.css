@@ -1,0 +1,40 @@
+.range {
+    width: 450px;
+    height: 200px;
+}
+
+.belt {
+    background: url(../img/belt1.jpg);
+}
+
+.sneacers {
+    background-image: url(../img/sneakers1.jpg);
+}
+
+.craft {
+    background-image: url(../img/scarf1.jpg);
+}
+
+.main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 15px;
+}
+
+.hov:hover .description {
+    text-decoration: underline;
+} 
+
+.hov:hover .btn {
+    color: black;
+    background: blanchedalmond;
+}
+
+.menu {
+    text-decoration: none;
+}
+
+.range:hover > .menu {
+    text-decoration: underline;
+}
